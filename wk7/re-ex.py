@@ -9,7 +9,7 @@ x = re.search(r"blue", text)
 print(x)
 
 # IGNORECASE string
-x = "abcd"
+x = "Abcd"
 m = re.search(r'a', x, flags=re.I)
 print(m.string)
 

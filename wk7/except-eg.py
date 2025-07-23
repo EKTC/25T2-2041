@@ -1,6 +1,6 @@
 # Depending if we initialise `x` will make it run successfully or not
 
-# x = 1
+x = 1
 try:
   print(x)
 except NameError:
